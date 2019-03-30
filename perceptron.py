@@ -3,6 +3,7 @@ import random
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
+# You can add your own input/classes. The ones below were added for tests/example purposes
 data_points = np.array([[1,0,1], [1,1,0], [1,1,1], [1,0,0]]).astype('float')
 classes = [-1,-1,1,-1]
 
